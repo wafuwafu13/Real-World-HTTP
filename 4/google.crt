@@ -1,0 +1,59 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C = US, ST = California, L = Mountain View, O = Google LLC, CN = www.google.com
+   i:C = US, O = Google Trust Services, CN = GTS CA 1O1
+ 1 s:C = US, O = Google Trust Services, CN = GTS CA 1O1
+   i:OU = GlobalSign Root CA - R2, O = GlobalSign, CN = GlobalSign
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEyDCCA7CgAwIBAgIRALwBQQUi2Mx/AgAAAAB5ZH8wDQYJKoZIhvcNAQELBQAw
+QjELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczET
+MBEGA1UEAxMKR1RTIENBIDFPMTAeFw0yMDA4MjYwODE0MjNaFw0yMDExMTgwODE0
+MjNaMGgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQH
+Ew1Nb3VudGFpbiBWaWV3MRMwEQYDVQQKEwpHb29nbGUgTExDMRcwFQYDVQQDEw53
+d3cuZ29vZ2xlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLwcqpZvb5lI
+eVZhS3//3DkIOtRN4tiHgK89GF5xLc4JcFc5OF8q7qg19DqGhlodxzEyG42s0Eat
+w/yl0xg2aKujggJcMIICWDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYB
+BQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUrzKonSCY8/0UQf70xHRHfNFs
+gbEwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8YkBug630J/SswaAYIKwYBBQUHAQEE
+XDBaMCsGCCsGAQUFBzABhh9odHRwOi8vb2NzcC5wa2kuZ29vZy9ndHMxbzFjb3Jl
+MCsGCCsGAQUFBzAChh9odHRwOi8vcGtpLmdvb2cvZ3NyMi9HVFMxTzEuY3J0MBkG
+A1UdEQQSMBCCDnd3dy5nb29nbGUuY29tMCEGA1UdIAQaMBgwCAYGZ4EMAQICMAwG
+CisGAQQB1nkCBQMwMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5wa2kuZ29v
+Zy9HVFMxTzFjb3JlLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AF6nc/nf
+VsDntTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdCoMAyEAAAQDAEcwRQIgd/PW
+i1FPiHEWc+02L2T0dz6S086XHxxT+k77W9cKTNYCIQCfuf7x8xwNzyAwsRwKAWWt
+Z5AftTOQjUlNK+0dkCihawB2AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp
+06IcAAABdCoMAu8AAAQDAEcwRQIhAPRnjovtP7LU6nLrU/FSV5jWYw7Aa2hGzvOt
+JVKtEoMnAiAFygR21k8q5dOWhXmi84UpnokwAKcgmS33yVY8Tl1czzANBgkqhkiG
+9w0BAQsFAAOCAQEAepp2gMk5E45gsZNdmUkbcbWyLr1L21bw6/r0rpP2G92w3yqB
+CPxKqeyxrgnw+kB7uL7cCExGMpkp+BNrcq8WeWPTP3ZWVxl4kYb4eu4mZ5jcXuQA
+9YegASGdz+WfAvMq/Q79eK8uICl3NeLGMO7vvvK7JgJSoi0neM6pjjnQonSQEcWS
+WDx6iB3HWlbUGgEAw52Yb0ECH8viTZlqXNkPwIgIFcUmkKKkFfZx4v6pmNxAKnHB
+EaoAc1IkdKquclUvDTG3ALsfh031Ba3/epPgz4alHRt9QfoQmTsAfMndqVJcBnKG
+lucFl3cSLya73GXESE2cgkt9aSc/hQAusV2N3A==
+-----END CERTIFICATE-----
+subject=C = US, ST = California, L = Mountain View, O = Google LLC, CN = www.google.com
+
+issuer=C = US, O = Google Trust Services, CN = GTS CA 1O1
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 2641 bytes and written 396 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
